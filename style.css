@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root{
+    --black: #000000;
+    --gray: #989898;
+    --lime-green: #32CD32;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+#product-heading{
+    font-size:32px;
+    color: #353535;
+}
+
+.container{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 60px 80px;
+    background-color: #f7f7f7;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: center;    
+}
+
+.col-1{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+}
+
+.col-1 img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 60%;
+    height: 400px;
+}
+
+.col-2{
+    width: 60%;
+}
+
+.product-name{
+    color: var(--black);
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.category{
+    color: var(--gray);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#rating-icons{
+    margin-bottom: 10px;
+}
+
+.price{
+    margin-bottom: 10px;
+}
+
+.discount-price{
+    font-size: 18px;
+}
+
+.actual-price{
+    font-size: 16px;
+}
+
+.discount-rate{
+    color: var(--lime-green);
+}
+
+.product-attributes{
+    display: flex;
+    align-items: center;
+}
+
+#radio-buttons{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#buttons{
+    margin-top: 20px;
+}
+
+#buttons button{
+    background-color: #2454E1;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#buttons button:nth-last-of-type(1){
+    background-color: #DDE0E7;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+/* # Mobile only screen and (min-width: 480px) */
+@media screen and (max-width: 600px){
+    .container{
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+
+    .row{
+        display: block;
+    }
+    .col-1{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .col-2{
+        width: 100%;
+        padding: 20px 10px;
+    }
+    
+}
+
+/* # Tablet only screen and (min-width: 768px)  */
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    .container{ 
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 50px 20px;
+        background-color: #f7f7f7;
+    }
+    .row{
+        display: flex;
+    }
+}
+
+
+
+
+# Desktop
+only screen and (min-width: 992px)
+
+# Huge
+only screen and (min-width: 1280px) 

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+    <center>
+        <h1 id="product-heading">Product Page</h1>
+    </center>
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <img src="https://res.cloudinary.com/mehulprojectimages/image/upload/v1629303954/Product%20Pricing%20Page/isolated-t-shirt-1852114_960_720_icp5mi.webp"
+                    alt="product image">
+            </div>
+            <div class="col-2">
+                <p class="product-name">Green Cotton Tshirt</p>
+                <p class="category">Shirts</p>
+                <div id="rating-icons">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div id="price">
+                    <p class="discount-price">Rs.400 <strike class="actual-price">Rs.600 &nbsp;</strike><span
+                            class="discount-rate"> 50%
+                            Off</span>
+                    </p>
+                </div>
+                <p style="margin-bottom: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas fugit
+                    fuga doloribus recusandae.
+                    Eveniet odio magnam asperiores odit commodi laudantium ipsum molestias porro cumque quaerat quae,
+                    optio, quia facilis iusto?</p>
+                <div class="product-attributes">
+                    <h4 style="margin-right: 106px;">Color</h4>
+                    <p>Green</p>
+                </div>
+                <div class="product-attributes" style="margin-bottom: 10px;">
+                    <h4 style="margin-right: 59px;">Avaliablity</h4>
+                    <p>3 in stock</p>
+                </div>
+                <div class="product-attributes" style="margin-bottom: 10px;">
+                    <h4 style="margin-right: 58px;">Select Size:</h4>
+                    <div id="radio-buttons">
+                        <div>
+                            <input type="radio" id="small" name="sizes" value="small">
+                            <label for="small">Small</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="medium" name="sizes" value="medium">
+                            <label for="medium">Medium</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="large" name="sizes" value="large">
+                            <label for="large">Large</label>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-attributes">
+                    <h4 style="margin-right: 70px;">Quantity:</h4>
+                    <select id="quantity" name="shirts">
+                        <option value="volvo">1</option>
+                        <option value="saab">2</option>
+                        <option value="fiat">3</option>
+                        <option value="audi">4</option>
+                        <option value="audi">5</option>
+                    </select>
+                </div>
+                <div id="buttons">
+                    <button>Buy Now</button>
+                    <button>Add to Cart</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
